@@ -137,4 +137,14 @@ These sources support the methods used. None of them tested garment sewing. Plea
 - Bazarevsky, V. et al. (2020). BlazePose: On-device real-time body pose tracking. arXiv:2006.10204
 - Lugaresi, C. et al. (2019). MediaPipe: A framework for building perception pipelines. arXiv:1906.08172
 
+## ⚠️ Disclaimer
+
+This repository contains a sanitized representation of a professional industrial automation project.
+Proprietary company information, production data, network configurations and confidential materials have been excluded.
+
+---
+
+<p align="center">
+  © 2026 Itmam Rubayet Annan — All Rights Reserved  
+</p>
 
