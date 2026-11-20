@@ -40,15 +40,6 @@ Manual time studies are slow, cover only a few sampled minutes of a shift, and d
 <img src="images/Motion Analysis Workflow Infographic.png" alt="PACE Project Workflow" width="400">
 </p>
 
-```mermaid
-flowchart TD
-    A[Enter production details] --> B[Load reference and test videos]
-    B --> C[Draw START and END regions]
-    C --> D[Extract motion signals and pose per frame]
-    D --> E[Detect cycles]
-    E --> F[Compare with DTW and compute metrics and scores]
-    F --> G[Save to local database]
-    G --> H[Synchronized playback with overlays and history view]
 ```
 
 ### Methodology in brief
