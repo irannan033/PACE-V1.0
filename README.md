@@ -40,8 +40,6 @@ Manual time studies are slow, cover only a few sampled minutes of a shift, and d
 <img src="images/Motion Analysis Workflow Infographic.png" alt="PACE Project Workflow" width="400">
 </p>
 
-```
-
 ### Methodology in brief
 
 1. **Motion signal.** Each frame is converted to grayscale and blurred. The difference from the previous frame, averaged inside the START region, inside the END region and over the whole frame, gives three signals.
@@ -58,13 +56,9 @@ Observed measurements (cycle count, cycle time) are kept separate from estimates
 
 ## Architecture
 
-```mermaid
-flowchart LR
-    GUI[Desktop GUI] --> ENGINE[Analysis engine]
-    ENGINE --> POSE[Pose model]
-    ENGINE --> DB[(Local SQLite database)]
-    GUI --> DB
-```
+<p align="center">
+<img src="images/Desktop Analysis System Flowchart.png" alt="PACE Project Workflow" width="500">
+</p>
 
 The same analysis engine is designed to serve both phases: Phase 1 feeds it frames from video files, and Phase 2 will feed it frames from live cameras.
 
