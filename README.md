@@ -36,7 +36,9 @@ Manual time studies are slow, cover only a few sampled minutes of a shift, and d
 
 ## How it works
 
-<img src="images/Motion Analysis Workflow Infographic.png" alt="PACE Project Workflow" width="800">
+<p align="center">
+<img src="images/Motion Analysis Workflow Infographic.png" alt="PACE Project Workflow" width="400">
+</p>
 
 ```mermaid
 flowchart TD
